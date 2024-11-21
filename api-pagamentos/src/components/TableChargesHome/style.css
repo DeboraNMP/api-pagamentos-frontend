@@ -1,0 +1,62 @@
+.strongTableHome {
+    width: 52px;
+    height: 21px;
+    top: 285px;
+    left: 472px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 8px;
+}
+
+.redColor {
+    background-color: var(--color07);
+    color: --color11;
+}
+
+.yellowColor {
+    background-color: var(--color08);
+    color: var(--color19);
+}
+
+.greenColor {
+    background-color: var(--color06);
+    color: var(--color09);
+}
+
+.h1TableHome {
+
+    height: 23px;
+    font-family: var(--thirdFont);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+    color: #3F3F55;
+    width: 360px;
+    height: 58px;
+    top: 266px;
+    left: 188px;
+    background-color: var(--color13);
+}
+
+.thTableHome {
+    width: 118px;
+    height: 50px;
+    gap: 8px;
+    font-family: var(--thirdFont);
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: var(--color02);
+}
+
+.tdTableHome {
+    width: 118px;
+    height: 40px;
+    font-family: var(--thirdFont);
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: var(--color18);
+}

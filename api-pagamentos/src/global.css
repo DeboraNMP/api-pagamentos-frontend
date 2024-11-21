@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+:root {
+    --color01: #343447;
+    --color02: #3F3F55;
+    --color03: #DA0175;
+    --color04: #F8F8F9;
+    --color05: #0E8750;
+    --color06: #EEF6F6;
+    --color07: #FFEFEF;
+    --color08: #FCF6DC;
+    --color09: #1FA7AF;
+    --color10: #747488;
+    --color11: #971D1D;
+    --color12: #034A2A;
+    --color13: #ffffff;
+    --color14: #D0D5DD;
+    --color15: #DEDEE9;
+    --color16: #344054;
+    --color17: #F0F0F5;
+    --color18: #6E6E85;
+    --color19: #C5A605;
+    --color20: #EFF0F6;
+    --color21: #CC7800;
+
+
+    --primaryFont: "Nunito", sans-serif;
+    --secondFont: "Inter", sans-serif;
+    --thirdFont: "Montserrat", sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    width: 100%;
+}
+
+.labelInput {
+    color: var(--color16);
+    font-family: var(--thirdFont);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.inputModal {
+    display: flex;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--color14);
+    background: var(--color13);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.buttonPrimary {
+    height: 33px;
+    padding: 4px 40px 4px 40px;
+    gap: 4px;
+    border-radius: 10px;
+    background-color: var(--color03);
+    color: var(--color04);
+    font-family: var(--secondFont);
+    border: none;
+    cursor: pointer;
+}
+
+.inputTexto {
+    width: 100%;
+    height: 44px;
+    padding: 10px 14px 10px 14px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--color14);
+    background-color: var(--color13);
+}

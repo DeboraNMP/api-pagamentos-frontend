@@ -1,0 +1,198 @@
+.backgroundModalUpdateCharge {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 894px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(145, 154, 150, 0.30);
+    backdrop-filter: blur(2px);
+    z-index: 99;
+
+}
+
+.formModalUpdateCharge {
+    width: 576px;
+    height: 754px;
+    top: 84px;
+    left: 476px;
+    opacity: 0px;
+    padding: 50px;
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.h1ModalUpdateCharge {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.imgModalUpdateCharge {
+    width: 32px;
+    height: 32px;
+}
+
+.imgAndButtonModalUpdateCharge {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.buttonCloseModalUpdateCharge {
+    all: unset;
+    cursor: pointer;
+    width: 32px;
+    height: 35.512px;
+    margin-right: 23px;
+}
+
+.labelInputChargeUpdateName {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Nunito;
+    font-size: 18px;
+}
+
+.inputModalChargeUpdateName {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.labelInputChargeUpdateDescricao {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Nunito;
+
+}
+
+.inputModalChargeUpdateDescricao {
+    height: 88px;
+    padding-bottom: 4px;
+}
+
+.labelInputChargeUpdateVencimento {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Nunito;
+    max-width: 50%;
+}
+
+.divVencimentoValor>div {
+    max-width: 50%;
+}
+
+.gapForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.labelInputChargeUpdateValor {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Nunito;
+    max-width: 50%;
+}
+
+.divVencimentoValor {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.h3Status {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.labelChargeUpdateStatus {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sectionStatus {}
+
+.divStatus {
+    display: flex;
+    align-items: center;
+    width: 487px;
+    height: 44px;
+    padding: 12px 16px;
+    gap: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background: var(--Cinzas-Cinza-7, #F0F0F5);
+}
+
+.buttonsModalUpdateCharge {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonChargeUpdateCancelar {
+    cursor: pointer;
+    display: inline-flex;
+    padding: 4px 81.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    border: 1px solid var(--Cinzas-Cinza-6, #DEDEE9);
+    background: var(--Cinzas-Cinza-8, #F8F8F9);
+    color: var(--principais-verde-normal, #0E8750);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttonChargeUpdateAplicar {
+    cursor: pointer;
+    display: flex;
+    height: 34px;
+    padding: 4px 87.25px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    border: 1px solid var(--Cinzas-Cinza-6, #DEDEE9);
+    background: var(--color03);
+    color: #fff;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputClicked,
+.inputNotClicked {
+    all: unset;
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+}
+
+.inputNotClicked {
+    background-image: url(../../assets/CheckboxGrey.svg);
+}
+
+.inputClicked {
+    background-image: url(../../assets/CheckBonGreen.svg);
+}

@@ -1,0 +1,60 @@
+.divPrincipal {
+    display: flex;
+    text-align: left;
+    background-color: var(--color04);
+
+}
+
+.divconteudoPrincipal {
+    background: var(--color04);
+    width: 100%;
+}
+
+.divResume {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 80px;
+    background: var(--color04);
+    width: 100%;
+}
+
+.divTableHome {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 80px;
+    gap: 32px;
+    background: var(--color04);
+    width: 100%;
+
+}
+
+.divClientesEmDia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textPrincialHome {
+
+    width: 360px;
+    height: 58px;
+    top: 266px;
+    left: 188px;
+    font-family: var(--thirdFont);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33.8px;
+    text-align: center;
+    color: var(--color01);
+    margin: 54px 0px 43px 82px;
+}
+
+.loginHome {
+    display: flex;
+    height: 112px;
+    justify-content: space-between;
+    padding: 24px 80px;
+    align-items: center;
+    border-bottom: 1.5px solid var(--color05);
+    width: 1268px;
+    margin-left: 50px;
+}

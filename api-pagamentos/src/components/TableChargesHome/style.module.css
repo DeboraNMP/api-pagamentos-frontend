@@ -1,0 +1,119 @@
+.strongTableHome {
+    width: 52px;
+    height: 21px;
+    top: 285px;
+    left: 472px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+
+}
+
+.table {
+    width: 100%;
+    min-width: 360px;
+    border-collapse: collapse;
+    background-color: var(--color13);
+
+
+}
+
+.redColor {
+    background-color: #FFEFEF;
+    color: #971D1D;
+}
+
+.yellowColor {
+    background-color: #FCF6DC;
+    color: #C5A605;
+}
+
+.greenColor {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.h1TableHome {
+    font-family: var(--thirdFont);
+    color: #3F3F55;
+    background-color: var(--color13);
+    border-radius: 12px 12px 0px 0px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    padding: 18px 24px 16px;
+    font-size: 18px;
+    gap: 5px;
+    border-bottom: 1px solid #EFF0F6;
+
+}
+
+.h1TextPrincipal {
+    font-size: 18px;
+    margin-left: 56px;
+}
+
+
+
+.th {
+    width: 118.5px;
+    height: 50px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #3F3F55;
+    padding-left: 26px;
+
+}
+
+
+
+.td {
+    border-top: 1px solid #EFF0F6;
+    border-bottom: 1px solid #EFF0F6;
+    padding-left: 26px;
+    height: 56px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #747488;
+
+}
+
+.linkVerTodos {
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    text-decoration-line: underline;
+
+    color: #DA0175;
+    text-align: center;
+}
+
+.td {
+    background-color: var(--color13);
+}
+
+.divLinkVerTodos {
+    width: 360px;
+    height: 48px;
+    fill: #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(172, 217, 197, 0.25));
+    display: flex;
+    border-radius: 0px 0px 12px 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color13);
+}

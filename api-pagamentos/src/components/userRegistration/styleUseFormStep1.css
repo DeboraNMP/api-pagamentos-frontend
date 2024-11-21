@@ -1,0 +1,84 @@
+.principalTextStep1 {
+    color: var(--color01);
+    text-align: center;
+    font-family: var(--thirdFont);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.principalDivStep1 {
+    gap: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principalTextStep1 {
+    top: 58px;
+}
+
+.labelUserFormStep1 {
+    color: var(--color16);
+    font-family: var(--primaryFont);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.inputUserFormStep1 {
+    width: 368px;
+    height: 48px;
+    display: flex;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--color14);
+    background: var(--color13);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    margin-bottom: 40px;
+}
+
+.buttonCadastrarStep1 {
+    all: unset;
+    display: flex;
+    width: 160px;
+    height: 33px;
+    padding: 4px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    background: var(--color03);
+    color: var(--color04);
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    margin: 19px auto;
+
+}
+
+.linkFooter {
+    color: var(--color03);
+    font-family: var(--primaryFont);
+    font-style: normal;
+    line-height: 130%;
+    text-decoration-line: underline;
+}
+
+.footerStep1 {
+    color: var(--color02);
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    line-height: 130%;
+    text-align: center;
+}

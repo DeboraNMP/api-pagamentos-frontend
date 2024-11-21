@@ -1,0 +1,73 @@
+.pUser {
+    color: var(--color05);
+    font-family: var(--thirdFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 16px;
+    text-transform: uppercase;
+}
+
+.pUserIcon {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background-color: var(--color15);
+    color: var(--color05);
+    font-family: var(--thirdFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.divLoginHome {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.buttonLogin {
+    border: none;
+    all: unset;
+    cursor: pointer;
+}
+
+.iconsModalLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    position: absolute;
+    top: 30px;
+    left: -2px;
+    background-color: var(--color13);
+    filter: drop-shadow(0px 4px 50px var(--color10));
+}
+
+.iconSeta {
+    position: absolute;
+    top: -7px;
+    left: 5px;
+}
+
+.btnOpenMenu {
+    position: relative;
+}
+
+.buttonLogout {
+    all: unset;
+    cursor: pointer;
+}

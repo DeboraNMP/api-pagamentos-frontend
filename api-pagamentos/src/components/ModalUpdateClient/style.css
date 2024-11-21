@@ -1,0 +1,150 @@
+.cardModalUpdateClient {
+    width: 600px;
+    height: 731px;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.formClientUpdate {
+    background-color: #fff;
+    width: 487px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 57px;
+    padding-bottom: 16px;
+}
+
+.buttonAndTitleUpdateClient {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 57px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+}
+
+.h1updateCliente {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.buttonCloseModalClientUpdate {
+    all: unset;
+    cursor: pointer;
+    width: 32px;
+    height: 29.686px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labelInputClientUpdate {
+    color: var(--Cinzas-Cinza-2, #3F3F55);
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.inputModalClientUpdateG {
+    display: flex;
+    width: 487px;
+    height: 44px;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.inputModalClientUpdateP {
+    display: flex;
+    width: 235px;
+    height: 44px;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.inputModalClientUpdateM {
+    display: flex;
+    width: 303px;
+    height: 44px;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.inputModalClientUpdatePP {
+    display: flex;
+    width: 160px;
+    height: 44px;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.buttonsCancelarAplicar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonClientUpdateCancelar {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    padding: 4px 81.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    border: 1px solid var(--color15);
+    background: var(--color04);
+    color: var(--color05);
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttonClientUpdateAplicar {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    padding: 4px 87.25px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    background: var(--color03);
+    color: var(--color04);
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

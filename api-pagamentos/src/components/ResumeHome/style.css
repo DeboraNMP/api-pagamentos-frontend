@@ -1,0 +1,52 @@
+.resumeCobrancaPagas {
+    width: 360px;
+    height: 111px;
+    padding: 23px 40px 23px 40px;
+    border-radius: 30px;
+    margin-bottom: 24px;
+    font-family: var(--thirdFont);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: var(--color02);
+    gap: 54px;
+
+}
+
+.greenColor {
+    background-color: var(--color06);
+}
+
+.redColor {
+    background-color: var(--color07);
+}
+
+.yellowColor {
+    background-color: var(--color08);
+}
+
+.iconsResume {
+    width: 32.084px;
+    height: 33.833px;
+}
+
+.divResumeInfo {
+    color: var(--color02);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.resumeInfoAmount {
+    font-size: 24px;
+}

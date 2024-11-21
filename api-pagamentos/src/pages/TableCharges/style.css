@@ -1,0 +1,137 @@
+.divBackgroundTableCharges {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    background: var(--Cinzas-Cinza-8, #F8F8F9);
+}
+
+.loginTableCharges {
+    margin-bottom: 26px;
+    padding-right: 300px;
+    padding-left: 300px;
+    border-bottom: 1px solid var(--color05);
+    width: 1268px;
+    margin-left: 50px;
+    background: var(--color04);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pTableCharges {
+    color: var(--color05);
+    font-family: var(--secondFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 44px;
+}
+
+.divInputAndTop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tableChange {
+    padding: 12px 23px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.h1TableChanges {
+    color: var(--color02);
+    font-family: var(--thirdFont);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.h1Cobranca {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.divInputTableCharges {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.imgLupa {
+    width: 24px;
+}
+
+.inputTableCharges {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divTableCharges {
+    width: Fixed (1, 120px)px;
+    height: Hug (594.44px)px;
+    top: 206px;
+    left: 212px;
+    padding: 12px 23px 12px 250px;
+    gap: 10px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.trThTableChanges {
+    width: Fixed (1, 133px)px;
+    height: Fixed (58px)px;
+    gap: 64px;
+    opacity: 0px;
+}
+
+.thTableChanges {
+    width: 174px;
+    height: 50px;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.08px;
+    text-align: left;
+    color: var(--color02);
+}
+
+.trTdTableChanges {
+    width: Fixed (1, 109px)px;
+    height: Hug (40px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+
+.tdTableChanges {
+    width: 77px;
+    height: 40px;
+    font-family: var(--primaryFont);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.007px;
+    text-align: left;
+    color: var(--color18);
+}
+
+.buttonsTableCharges {
+    display: flex;
+    gap: 15px;
+}
+
+.buttonUpdateTableCharges {
+    all: unset;
+    cursor: pointer;
+}
+
+.buttonDeleteTableCharges {
+    all: unset;
+    cursor: pointer;
+}

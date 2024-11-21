@@ -1,0 +1,34 @@
+.menuLateral {
+    width: 108px;
+    height: 100vh;
+    background-color: var(--color15);
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    padding-top: 45px;
+
+}
+
+.linkMenuLateral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.iconsHome {
+    width: 48px;
+}
+
+.ativo {
+    border-right: 2px solid var(--color03);
+}
+
+.ativo .iconsHome {
+    filter: invert(14%) sepia(95%) saturate(4925%) hue-rotate(316deg) brightness(94%) contrast(103%);
+}

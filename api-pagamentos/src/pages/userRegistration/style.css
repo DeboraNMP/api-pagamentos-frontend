@@ -1,0 +1,29 @@
+.barProgress {
+    display: flex;
+    gap: 8px;
+
+}
+
+.barra {
+    background-color: red;
+    width: 82px;
+    height: 6px;
+
+}
+
+.principalDivUserRegistration {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.userFormStepsBarProgress {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 276px;
+}

@@ -1,0 +1,11 @@
+.divInputType {
+    width: Fill (344px)px;
+    gap: 8px;
+    position: relative;
+}
+
+.eyeIcon {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}

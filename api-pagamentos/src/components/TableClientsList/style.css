@@ -1,0 +1,157 @@
+.mainBackground {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color04);
+}
+
+.divBakground {
+    width: calc(100% - 108px);
+}
+
+.divTop {
+    padding: 10px 70px;
+    border-bottom: 1px solid var(--color05);
+    width: 1268px;
+    margin-left: 50px;
+    background: var(--color04);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divInput {
+    width: max-content;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.inputPesquisar {
+    width: 318px;
+    height: 39px;
+    display: inline-flex;
+    padding: 7px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 205px;
+    border-radius: 10px;
+    background: var(--color13);
+    border: none;
+}
+
+.pTableClientList {
+    color: var(--color05);
+    font-family: var(--secondFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.h1TableClientList {
+    color: var(--color02);
+    font-family: var(--thirdFont);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.divH1WithButtonAndInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.divGlobalInputButton {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+
+.tableContainer {
+    width: 100%;
+    padding: 10px 70px;
+}
+
+.tableTag {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--color13);
+    color: var(--color02);
+}
+
+.trThTableClientList {
+    display: flex;
+    min-width: 100%;
+}
+
+.thTableClientList {
+    width: 16.66%;
+    display: flex;
+    flex-shrink: 0;
+    color: var(--color02);
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.08px;
+    text-align: left;
+}
+
+.trTdTableClientList {
+    display: flex;
+}
+
+.tdTableClientList {
+    width: 16.66%;
+    display: flex;
+    flex-shrink: 0;
+    color: var(--color10);
+    font-family: var(--primaryFont);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.07px;
+    text-align: left;
+}
+
+.buttonAdicionarCliente {
+    width: fit-content;
+    all: unset;
+    border-radius: 10px;
+    background: var(--color03);
+    display: flex;
+    justify-content: right;
+    padding: 4px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--color04);
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.tagStatusClient {
+    max-width: 100px;
+}
+
+.buttonClientList {
+    all: unset;
+    cursor: pointer;
+}
